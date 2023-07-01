@@ -1,0 +1,10 @@
+ansible
+ansible.pub
+passvault.txt
+secret
+terraform.tfstate
+terraform.tfstate.backup
+variables.tf
+inventories/gitea/hosts
+.terraform
+.terraform.lock.hcl

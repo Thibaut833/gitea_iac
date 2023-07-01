@@ -1,0 +1,19 @@
+---
+- name: Configuration Gitea
+  hosts: gitea_servers
+  become: true
+  vars_files: ./secret
+  roles:
+    - role: base
+      tags: base
+    - role: storage
+      tags: storage
+    - role: ca_ansible
+      tags: ca_ansible
+    - name: ca_createcert
+      tags: ca_createcert
+      vars:
+        nom_serveur: gitea
+        nom_domaine: blasi.home
+    - role: gitea
+      tags: gitea

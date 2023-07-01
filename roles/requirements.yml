@@ -1,0 +1,21 @@
+---
+- src: https://github.com/Thibaut833/base.git
+  scm: git
+  version: main
+  name: base
+- src: https://github.com/Thibaut833/storage.git
+  scm: git
+  version: main
+  name: storage
+- src: https://github.com/Thibaut833/ca_ansible.git
+  scm: git
+  version: main
+  name: ca_ansible
+- src: https://github.com/Thibaut833/ca_createcert.git
+  scm: git
+  version: main
+  name: ca_createcert
+- src: https://github.com/Thibaut833/gitea.git
+  scm: git
+  version: main
+  name: gitea
