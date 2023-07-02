@@ -17,3 +17,12 @@
         nom_domaine: blasi.home
     - role: gitea
       tags: gitea
+    - role: opnsense_unbound
+      tags: opnsense_unbound
+      vars:
+        dns_name: "gitea"
+        ip_serveur: "{{ ansible_host }}"
+        # opnsense_url
+        # opnsense_user
+        # opnsense_password
+        # ->> secret

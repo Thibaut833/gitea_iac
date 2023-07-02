@@ -19,3 +19,7 @@
   scm: git
   version: main
   name: gitea
+- src: https://github.com/Thibaut833/opnsense_unbound.git
+  scm: git
+  version: main
+  name: opnsense_unbound
